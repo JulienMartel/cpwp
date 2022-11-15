@@ -116,9 +116,9 @@ export default function Home() {
           </Box>
         </Box>
 
-        <Flex minH="400px" justify="center" hidden={!loading} align="center">
+        {/* <Flex minH="400px" justify="center" hidden={!loading} align="center">
           <Spinner size="xl" />
-        </Flex>
+        </Flex> */}
 
         <CreatedBy />
       </Stack>
